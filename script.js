@@ -2,7 +2,7 @@
 const obj1={
 	name:"ABC"
 }
-Object.prototype.getkeys=function(myobj){
-	return Object.keys(myobj);
+Object.prototype.getkeys=function(){
+	return Object.keys(this);
 }
-console.log(Object.getkeys(obj1));
+console.log(obj1.getkeys());
