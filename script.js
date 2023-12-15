@@ -2,7 +2,7 @@
 // const student={
 // 	name:"ABC"
 // }
-Object.prototype.getkeys=function(){
+Object.prototype.getKeys=function(){
 	return Object.keys(this);
 }
 // console.log(student.getkeys());
